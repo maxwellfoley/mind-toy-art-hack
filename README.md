@@ -6,7 +6,7 @@ I'm going to put up on my website a demo version of the installation with simple
 
 To use the program with the headset, download the ThinkGearConnector program, which is bundled in [the developer tools on NeuroSky's website](http://developer.neurosky.com/docs/doku.php?id=mdt2.5). I used a Mac, no idea if it will work on Windows the same way or not. Use ThinkGearConnector to begin broadcasting the EEG data from the headset. 
 
-Install the required npm module `node-thinkgear-sockets`, then run `nodescript.js`. Now in order to run the code for the visualizer in your browser, you have to find a way to enable cross-origin resource sharing, so that the web page can access the information from the node server. This will probably require downloading a browser extension, in Google Chrome I used one called ["Allow-Control-Allow-Origin: *"](https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi).
+Install the required npm module `node-thinkgear-sockets`, then run `nodescript.js`. Now in order to run the code for the visualizer in your browser, you have to find a way to enable cross-origin resource sharing, so that the web page can access the information from the node server. This will probably require downloading a browser extension, for Google Chrome I used one called ["Allow-Control-Allow-Origin: *"](https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi).
 
 Now you are good to go, open up `index.html` in your browser, and it should all be working. 
 
